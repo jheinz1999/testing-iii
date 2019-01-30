@@ -15,7 +15,7 @@ describe('<Dashboard />', () => {
 
     fireEvent.click(closeBtn);
 
-    expect(closeBtn.textContent).toBe(/Open Gate/i);
+    expect(closeBtn.textContent).toBe("Open Gate");
 
   });
 
@@ -29,7 +29,7 @@ describe('<Dashboard />', () => {
     fireEvent.click(closeBtn);
     fireEvent.click(lockBtn);
 
-    expect(lockBtn.textContent).toBe(/Unlock Gate/i);
+    expect(lockBtn.textContent).toBe("Unlock Gate");
 
   });
 
